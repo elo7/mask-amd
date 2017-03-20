@@ -5,6 +5,3 @@ Dynamic mask for numeric fields formatting, like monetary, weight, measure and d
 ## Dependencies
 
 mask-amd depends on [doc-amd](https://github.com/elo7/doc-amd).
-
-
-## Methods
