@@ -61,7 +61,7 @@ define('mask', ['doc'], function($) {
 
 		var addletter = function(input, key, e) {
 			var	patternLetter = pattern.charAt(input.value.length - 1),
-				regexResult = regex.charToRegex(patternLetter);
+				regexResult = charToRegex(patternLetter);
 
 			if(regexResult === "literal") {
 				el.value = el.value.slice(0, el.value.length - 1);
@@ -121,7 +121,7 @@ define('mask', ['doc'], function($) {
 			value = value.replace(formatPattern, '');
 			for(var valueIndex = 0; valueIndex < value.length; valueIndex++) {
 				var	patternLetter = pattern.charAt(maskIndex++),
-					regexResult = regex.charToRegex(patternLetter);
+					regexResult = charToRegex(patternLetter);
 				if(regexResult === "literal") {
 					formattedValue += patternLetter;
 					maskIndex++;
