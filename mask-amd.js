@@ -22,6 +22,9 @@ define('mask', ['doc'], function($) {
 			if (pattern[j] === '.') {
 				formatted = '.' + formatted;
 				j--;
+			}else if (pattern[j] === ',') {
+				formatted = ',' + formatted;
+				j--;
 			}
 			if (i >= 0) {
 				formatted = value[i] + formatted;
