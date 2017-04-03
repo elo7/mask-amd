@@ -12,4 +12,7 @@ mask-amd is released under the [BSD](https://github.com/elo7/mask-amd/blob/maste
 
 * * *
 
+To see **mask-amd** working, click [here](https://elo7.github.io/mask-amd/).
+
+* * *
 Copyright :copyright: 2017 Elo7# mask-amd
