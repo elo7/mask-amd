@@ -1,6 +1,6 @@
 {
-  "name": "mask-amd",
-  "version": "1.0.2",
+  "name": "elo7-mask-amd",
+  "version": "1.0.3",
   "description": "Dynamic mask for numeric fields formatting, like monetary, weight, measure and documents.",
   "main": "mask-amd.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/elo7/mask-amd.git"
   },
-  "author": "Elo7",
+  "author": "Elo7tech",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/elo7/mask-amd/issues"
