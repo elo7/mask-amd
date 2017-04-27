@@ -59,8 +59,7 @@ define('mask', ['doc'], function($) {
 
 	var applyMask = function(el) {
 		var pattern = el.getAttribute("mask"),
-			patternRegex = "";
-		var _currentValue = el.value;
+			_currentValue = el.value;
 
 		var addletter = function(input, key, e) {
 			var	patternLetter = pattern.charAt(input.value.length - 1),
