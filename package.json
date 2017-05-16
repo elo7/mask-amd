@@ -1,11 +1,8 @@
 {
   "name": "elo7-mask-amd",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Dynamic mask for numeric fields formatting, like monetary, weight, measure and documents.",
   "main": "mask-amd.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elo7/mask-amd.git"
