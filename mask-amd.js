@@ -4,6 +4,8 @@ define('mask', ['doc'], function($) {
 		switch(patternLetter) {
 			case "9":
 				return new RegExp("[0-9]");
+			case "A":
+				return new RegExp("[A-Za-z]");
 			case "":
 				return "end";
 			default:
