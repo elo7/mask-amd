@@ -1,6 +1,6 @@
 {
   "name": "elo7-mask-amd",
-  "version": "1.1.0",
+  "version": "1.1.1-SNAPSHOT",
   "description": "Dynamic mask for numeric fields formatting, like monetary, weight, measure and documents.",
   "main": "mask-amd.js",
   "repository": {
