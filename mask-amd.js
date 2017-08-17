@@ -53,10 +53,11 @@ define('mask', ['doc'], function($) {
 		});
 
 		$el.on('blur', function(event) {
-			if ($el.val().trim() === '') {
+			var inputContent = $el.val();
+			if (inputContent.trim() === '') {
 				return;
 			}
-			var newVal = format($el.val(), pattern);
+			var newVal = format(inputContent, pattern);
 			$el.val(newVal);
 			oldVal = newVal;
 		});
