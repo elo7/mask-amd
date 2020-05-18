@@ -16,6 +16,6 @@
   "dependencies": {
     "define-async": "1.2.0",
     "elo7-doc-amd": "1.6.0",
-    "elo7-events-amd": "1.1.3"
+    "elo7-events-amd": "1.2.1"
   }
 }
